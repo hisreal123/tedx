@@ -7,7 +7,7 @@ import { Large } from './components/large'
 function App() {
   return (
     <>
-      <section>
+      <section className=''>
         <Large style="hidden md:block" />
         <Mobile style="sm:block md:hidden" />
       </section>
